@@ -12,7 +12,7 @@ If for whatever reason you want to install this channel manually
  /!\ Installing it this way does not come with the auto-update option /!\  
 
 Download the latest version (green button on this page) and after unzipping, make sure the folder name is called "BayAreaNews.bundle" (remove the -master part)  
-Move the HawaiiNews.bundle to your plugin directory
+Move the BayAreaNews.bundle to your plugin directory
 
 Mac: ~/Library/Application Support/Plex Media Server/Plug-ins  
 Windows: C:\Users\YOURUSERNAME\AppData\Local\Plex Media Server\Plug-ins  

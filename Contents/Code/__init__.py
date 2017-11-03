@@ -78,10 +78,10 @@ def MainMenu():
 		))
 
 	# LASTELY ADD REFRESH BUTTON
-	oc.add(DirectoryObject(
-		key=Callback(load_JSON),
-		title='UPDATE CHANNELS', thumb=R('icon-REFRESH.png'), summary=''
-		))
+	# oc.add(DirectoryObject(
+	# 	key=Callback(load_JSON),
+	# 	title='UPDATE CHANNELS', thumb=R('icon-REFRESH.png'), summary=''
+	# 	))
 
 	oc.add(PrefsObject(title='Settings'))
 	return oc
