@@ -1,4 +1,4 @@
-# HawaiiNews.bundle
+# BayAreaNews.bundle
 Plex Media Server channel for local Bay Area news channels.  
 Plex channel plugin for local Hawai'i news channels.  
 Each channel shows their latest broadcast until a new live broadcast  
