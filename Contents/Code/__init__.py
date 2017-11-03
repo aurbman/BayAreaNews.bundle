@@ -1,21 +1,31 @@
 #
 	#
-		# HAWAII NEWS CHANNELS FOR PLEX
-		# VERSION 1.1 | 11/01/2017
-		# BY OSCAR KAMEOKA FOR THE PEOPLE OF HAWAII ~ WWW.KITSUNE.WORK ~ PROJECTS.KITSUNE.WORK/ATV/
+		# BAY AREA NEWS CHANNELS FOR PLEX
+		# VERSION 1.0 | 11/03/2017
+		# Forked from https://github.com/kitsuneDEV/HawaiiNews.bundle
 	#
 #
 
 import requests
 
 
-NAME 			= 'HAWAII NEWS'
-PREFIX 			= '/video/HawaiiNews'
+NAME 			= 'BAY AREA NEWS'
+PREFIX 			= '/video/BayAreaNews'
 CHANNELS 		= 'http://projects.kitsune.work/aTV/HNC/channels.json'
 ALERTS 			= 'http://projects.kitsune.work/aTV/HNC/alerts.json'
 
 ICON 			= 'icon-default.png'
 ART    			= 'art-default.jpg'
+
+Dict['channels'] = [{
+	"name":    "KTVU",
+	"url":     "http://dcs-live.apis.anvato.net/server/play/10r3b2gtagOkUyAg/1926000/prog.m3u8?x=2830&anv_user=d5ff81654d8e261a04875be29288004030556&fw_ltlg=&fw_sdk_flag=%2Bslcb%2Bvicb&fw_metr=7&_dev=web&fw_did=d5ff81654d8e261a04875be29288004030556&fw_sdk_flag_safe=%252Bslcb%252Bvicb&rdid=unknown&is_lat=1&_tkx_anvack=anvato_epfox_app_web_prod_b3373168e12f423f41504f207000188daf88251b&_tkx_callsign=c100014&t=1509643180&X-Anvato-Adst-Auth=IpqeobEhHOpE9QJz3wnQCPkE+bvqAABDmzFXidklEgdecDfZKWxKnldD2NRAMLPr&_shost=176160788&_fp=6f881b24ba922386f2c34573ea20865f&anvsid=i176160788-n9e8e3860-e3c8-42cb-8493-4a8c2f57c50d&anv=1509643400338&X-Anvato-Adst-Auth=q3zQ7Ztwi6NOdJgV03sCpUrsCNbWhrAescsqxh5XQoU6U5TayB46CGyJujsfX6Y2",
+	"thumb":   "",
+	"art":     "",
+	"summary": "KTVU Fox News"
+}]
+
+Dict['alerts'] = []
 
 
 def Start():
@@ -27,9 +37,9 @@ def Start():
 	HTTP.CacheTime = 1
 	HTTP.ClearCache()
 
-	Dict.Reset()
+	# Dict.Reset()
 
-	load_JSON()
+	# load_JSON()
 
 ####################################################################################
 
